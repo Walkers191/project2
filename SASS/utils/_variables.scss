@@ -1,0 +1,21 @@
+$color-1:#9356dc;
+$color-2:#FF79DA;
+$color-3:#99E2D0;
+$color-background:#f6f6f6;
+$color-form:#eaeaea;
+$color-footer:#353535;
+$color-white:#fff;
+$color-grey: #E8E8E8;
+$heading-font-family:'Shrikhand', "cursive";
+$text-font-family:'Roboto', sans-serif;
+
+
+h1 h2 h3 h4 h5 h6 {
+    font-family: $heading-font-family;
+
+}
+
+
+p span {
+    font-family: $text-font-family;
+}

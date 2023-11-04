@@ -1,0 +1,5 @@
+@mixin interaction-query($pointing-quality) {
+    @media (pointer: $pointing-quality) {
+        @content;
+    }
+}

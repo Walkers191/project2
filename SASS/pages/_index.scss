@@ -1,0 +1,426 @@
+@media all and (max-width: 480px) {
+
+
+.booking {
+    text-align: center;
+    background-color: lighten($color-grey, 5%);
+    padding-bottom: 40px;
+
+    &__title {
+        padding: 17px;
+    }
+    p {
+        padding: 12px; 
+ 
+ 
+    }   
+}
+
+.booking__title {
+    font-weight: bold;
+}
+
+.howitworks {
+    text-align: center;
+    padding: 10px;
+    font-family: $text-font-family;
+
+    h3 {
+        padding: 20px 0px;
+        margin-left: 25px;
+        text-align: left;
+        font-weight: bold;
+
+    }
+
+    i {
+        padding: 0px 30px 0px 20px;
+    }
+    
+    span {
+        font-family: $text-font-family;
+
+    }
+
+    button {
+        border-radius: 20px;
+        width: 300px;
+        height: 50px;
+        margin: 10px;
+        background-color: lighten($color-grey, 5%);
+        border: none;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: left;
+        
+    }
+
+    &__numb {
+        display: inline-block;
+        text-align: center;
+        width: 25px;
+        height: 25px;
+        background-color: $color-1;
+        color: $color-white;
+        border: $color-1 4px solid;
+        border-radius: 50%;
+        
+    }
+}
+
+.restaurants {
+    text-align: center;
+    background-color: lighten($color-grey, 5%);
+    padding-bottom: 50px;
+
+    h2 {
+        padding: 40px 0px 20px 40px;
+        text-align: left;
+    }
+    &__card {
+
+        width: 300px;
+        display: inline-block;
+        
+        img {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        height: 150px;
+        width: 300px; 
+        
+    }
+
+    b {
+        text-align: left;
+    }
+
+    &__body {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        text-align: left;
+        line-height: 20px;
+        padding-left: 10px;
+
+
+    }
+}
+}
+
+
+.new {
+    background-color: $color-3 ;
+    position: relative;
+    top: 50px;
+    left: 110px;
+    padding: 4px 15px ;
+}
+
+}
+
+
+@media all and (min-width: 768px) and (max-width: 990px){
+
+    body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden; 
+    }
+
+
+    .header {
+        text-align: center;
+        &__text {
+            font-size: 20px;
+        }
+    }
+    .booking {
+        text-align: center;
+        background-color: lighten($color-grey, 5%);
+        padding-bottom: 40px;
+    
+        &__title {
+            padding: 17px;
+        }
+        p {
+            padding: 12px; 
+        }   
+    
+    
+    }
+    
+    .howitworks {
+        text-align: center;
+        padding: 10px;
+        font-family: $text-font-family;
+        padding-bottom: 20px;
+    
+    
+        h3 {
+            padding: 20px 0px;
+            text-align: center;
+    
+        }
+    
+        i {
+            padding: 0px 30px 0px 20px;
+        }
+        
+        span {
+            font-family: $text-font-family;
+    
+        }
+    
+        button {
+            border-radius: 20px;
+            width: 300px;
+            height: 70px;
+            margin: 10px;
+            background-color: lighten($color-grey, 5%);
+            border: none;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            text-align: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+    
+        &__numb {
+            display: inline-block;
+            text-align: center;
+            width: 25px;
+            height: 25px;
+            background-color: $color-1;
+            color: $color-white;
+            border: $color-1 4px solid;
+            border-radius: 50%;
+        }
+    }
+    
+    .buttons {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .restaurants {
+        display: inline-block;
+
+        
+    
+        background-color: lighten($color-grey, 5%);
+        h2 {
+            display: flex;
+            justify-content: center;
+            padding: 20px 0px;            
+    
+        }
+    
+        &__card {
+            display: inline-block;
+    
+            width: 300px;
+            img {
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            height: 150px;
+            width: 300px; 
+            display: inline-block;
+        }
+    
+        b {
+            text-align: left;
+        }
+    
+        &__body {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            text-align: left;
+            line-height: 20px;
+            padding-left: 10px;
+        }
+    }
+    }
+    
+    
+    .new {
+        background-color: $color-3 ;
+        position: relative;
+        top: 50px;
+        left: 210px;
+        padding: 4px 15px ;
+    }
+    
+    .cards {
+        width: 100%;
+        display: inline-block;
+        margin-left: 100px;
+        padding-bottom: 100px;
+    
+    }
+
+
+}
+
+@media all and (min-width: 992px){
+
+
+.header {
+    padding-bottom: 60px;
+    text-align: center;
+    &__text {
+        font-size: 20px;
+    }
+}
+.booking {
+    text-align: center;
+    background-color: lighten($color-grey, 5%);
+    padding-bottom: 40px;
+    font-size: 25px;
+    &__title {
+        padding: 17px;
+    }
+    p {
+        padding: 12px; 
+    }   
+
+
+}
+
+.howitworks {
+    text-align: center;
+    padding: 10px;
+    font-family: $text-font-family;
+
+
+
+    h3 {
+        padding: 20px 0px;
+        text-align: center;
+
+    }
+
+    i {
+        padding: 0px 30px 0px 20px;
+    }
+    
+    span {
+        font-family: $text-font-family;
+
+    }
+
+    button {
+        border-radius: 20px;
+        width: 300px;
+        height: 50px;
+        margin: 10px;
+        background-color: lighten($color-grey, 5%);
+        border: none;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: left;
+        display: inline;
+        
+    }
+
+    &__numb {
+        display: inline-block;
+        text-align: center;
+        width: 25px;
+        height: 25px;
+        background-color: $color-1;
+        color: $color-white;
+        border: $color-1 4px solid;
+        border-radius: 50%;
+        
+    }
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.restaurants {
+    display: inline-block;
+    width: 100%;
+
+    background-color: lighten($color-grey, 5%);
+    h2 {
+        display: flex;
+        justify-content: center;
+        padding: 20px 0px;
+
+    }
+
+
+
+    &__card {
+        height: fit-content;
+        width: fit-content;
+        display: inline;
+
+
+    }
+
+    &__card {
+        display: inline-block;
+        margin-left: 100px;
+
+        width: 300px;
+        img {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        height: 150px;
+        width: 300px; 
+        display: inline-block;
+        
+    }
+
+    b {
+        text-align: left;
+    }
+
+    &__body {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        text-align: left;
+        line-height: 20px;
+        padding-left: 10px;
+        width: 300px;
+
+    }
+}
+}
+
+
+.new {
+    background-color: $color-3 ;
+    position: relative;
+    top: 50px;
+    left: 210px;
+    padding: 4px 15px ;
+}
+
+.cards {
+    width: 100%;
+    display: inline-block;
+    margin-left: 350px;
+    padding-bottom: 100px;
+
+}
+
+.footer {
+    padding: 50px 0px;
+}
+
+}

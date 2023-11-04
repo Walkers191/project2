@@ -1,0 +1,623 @@
+@media all and (max-width: 480px) {
+
+.header__menu {
+   display: flex; 
+   justify-content: flex-start;
+
+   i {
+    height: 100%;
+    padding-top: 20px;
+    margin-left: 10px;
+
+    
+   }
+
+   &__arrow {
+    padding-right: 70px;
+
+   }
+}
+
+.img {
+    position: absolute;
+    z-index: 20;
+
+}
+
+.restaurant__img {
+    width: 375px;
+    display: flex;
+    // overflow: hidden;
+    height: 250px;
+    // display: block;
+//  i am here trying to fix overlap[ of img
+}
+
+.menu {
+    // top: 200px;  rememebr this 
+    // position: absolute;
+    border: $color-grey 3px solid;
+    background-color: $color-grey;
+    border-top-left-radius:30px ;
+    border-top-right-radius: 30px;
+    position: relative;
+    top: 200px;
+    z-index: 111;
+
+    // top: 200px;
+    
+
+
+
+    // top: -55px;
+    
+    
+
+    h2 {
+        margin-left: 20px;
+        // padding: 10px;
+    }
+
+    &__header {
+        padding: 20px;
+        // border: greenyellow 3px solid;
+    }
+}
+
+.menu__dishes {
+    width: 360px;
+    h5 {
+        margin-left: 13px;
+        width: fit-content;
+        border-bottom: $color-3 2px solid;
+        margin-bottom: 20px;
+        
+    }
+}
+
+.dishs {
+  margin-left: 13px;
+  width: fit-content;
+  border-bottom: $color-3 2px solid;
+  margin-bottom: 20px;
+
+}
+
+#higher {
+    height: fit-content;
+}
+
+.dishes {
+    background-color: $color-white;
+    padding-left: 10px;
+    border-radius: 15px;
+    height: 90px;
+    padding: 10px 0px;
+    padding-left: 20px;
+    margin-left: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10px;
+
+    h4 {
+        line-height: 30px;
+    }
+
+    p {
+        display: inline;
+    }
+
+    b {
+        float: right;
+    
+ 
+        margin-right: 10px;
+        margin-bottom: 50px;
+    }
+
+}
+
+.footer {
+  position: relative;
+  top: 200px;
+  padding-bottom:80px ;
+   
+}
+
+// #footer__menu {
+//     position: absolute;
+//     top: 200px;
+// }
+
+// #plate__footer {
+
+//   position: static;
+//   top: 300px;
+   
+// }
+
+// #plate__footer {
+//   top: 10px;
+//   position: absolute;
+//   border: 6px solid red;
+// }
+
+// ASDASDASDASDASDASDASDASDASDASDASD
+// .dish {
+//     background-color: $color-white;
+//     padding-left: 10px;
+//     border-radius: 15px;
+//     height: 90px;
+//     padding: 10px 0px;
+//     // height: 65px;
+//     padding-left: 20px;
+//     margin-left: 10px;
+//     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+//     margin-bottom: 10px;
+
+//     &__name {
+//         display: block;
+//     }
+
+//     &__price  {
+//         float: right;
+        
+        
+//     }
+
+//     &__tick {
+//         float: right;
+//         border: 10px $color-3 solid;
+//         background-color: $color-3;
+
+
+//     }
+// }
+
+// JUIST GOT RID OF THIS 
+
+
+// @keyframes moveAndSpin {
+//     0% {
+//       transform: translateX(0) rotate(0deg);
+//       opacity: 0;
+//     }
+//     50% {
+//       transform: translateX(-50px) rotate(360deg);
+//       opacity: 1;
+//     }
+//     100% {
+//       transform: translateX(-50px) rotate(360deg);
+//       opacity: 1;
+//     }
+  // }
+  
+  // @keyframes resetPosition {
+  //   0% {
+  //     transform: translateX(-50px) rotate(360deg);
+  //     opacity: 1;
+  //   }
+  //   100% {
+  //     transform: translateX(0) rotate(0deg);
+  //     opacity: 0;
+  //   }
+  // }
+  
+  // .dish {
+  //   background-color: $color-white;
+  //   padding-left: 10px;
+  //   border-radius: 15px;
+  //   height: 90px;
+  //   padding: 10px 0px;
+  //   padding-left: 20px;
+  //   margin-left: 10px;
+  //   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  //   margin-bottom: 10px;
+  //   cursor: pointer;
+  
+  //   &__name {
+  //     display: block;
+  //   }
+  
+  //   &__price {
+  //     float: right;
+  //   }
+  
+  //   &__tick {
+  //     transform: translateX(-50px);
+  //     opacity: 0;
+  //   }
+  // }
+  
+  // .section {
+  //   &:hover .dish__tick {
+  //     animation: moveAndSpin 0.6s ease forwards;
+  //   }
+  
+  //   &.active .dish__tick {
+  //     animation: resetPosition 0.6s ease forwards;
+  //   }
+  // }
+
+
+  .dish-trans {
+
+    
+    .diss {
+      opacity: 0;
+      transform: translateY(10px);
+      animation: fadeIn 0.5s ease-in-out forwards;
+    }
+  
+    .diss--1 {
+      animation-delay: 0.2s;
+    }
+  
+    .diss--2 {
+      animation-delay: 0.5s;
+    }
+  
+    .diss--3 {
+      animation-delay: 1s;
+    }
+  
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  }
+ }
+
+ @media all and (min-width: 768px) and (max-width: 992px) {
+
+
+  body
+  {
+      overflow-x: hidden; 
+  }
+    .header__menu {
+       display: flex; 
+       justify-content: flex-start;
+       justify-content: center;
+    
+       i {
+        float: left;
+        margin-top: 13px;
+        // border: 4px solid green;
+        
+       }
+    
+       &__arrow {
+        padding-right: 70px;
+       }
+
+    }
+    
+    .img {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        position: absolute;
+
+    }
+    
+    .restaurant__img {
+        display: flex;
+        width: 100%;
+        overflow: hidden;
+        height: 250px;
+        
+    }
+    
+    .menu {
+        border: $color-grey 3px solid;
+        background-color: $color-grey;
+        border-top-left-radius:30px ;
+        border-top-right-radius: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: fit-content;
+        position: absolute;
+        top: 230px;
+        z-index: 111;
+        font-size: 18px;
+    
+        &__header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-right: 200px;
+            padding-left: 50px;
+        
+            
+        }
+    }
+
+    #footer__menu {
+      position: relative;
+      top: 940px;
+      padding-bottom:80px ;
+    }
+
+
+
+    #plate__footer {
+      position: relative;
+      top: 970px;
+      padding-bottom:80px ;
+    }
+    
+    .menu__dishes {
+    
+        width: 360px;
+        h5 {
+            font-size: 30px;
+            margin-left: 13px;
+            // border: 4px solid yellow;
+            // padding-bottom: 20px;
+            width: fit-content;
+            border-bottom: $color-3 2px solid;
+            margin-bottom: 20px;
+            
+        }
+    }
+
+    #enchant {
+      padding-right: 15px;
+      
+    }
+
+
+    .buttono { 
+      display: flex;
+      justify-content: center;
+      padding-right: 10px;
+    }
+
+    .ResHeartMove {
+      padding-left: 1px;
+    }
+
+    .dish-trans {
+      padding-left: 40px;
+    }
+
+    .section__title{
+      padding-bottom: 20px;
+    }
+    
+
+    .menu__dishes {
+      .dishs {
+        opacity: 0;
+        transform: translateY(10px);
+        animation: fadeIn 0.5s ease-in-out forwards;
+      }
+    
+      .dishes--1 {
+        animation-delay: 0.2s;
+      }
+    
+      .dishes--2 {
+        animation-delay: 0.5s;
+      }
+    
+      .dishes--3 {
+        animation-delay: 1s;
+      }
+    
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    }
+
+    .dish-trans {
+
+    
+      .diss {
+        opacity: 0;
+        transform: translateY(10px);
+        animation: fadeIn 0.5s ease-in-out forwards;
+      }
+    
+      .diss--1 {
+        animation-delay: 0.2s;
+      }
+    
+      .diss--2 {
+        animation-delay: 0.5s;
+      }
+    
+      .diss--3 {
+        animation-delay: 1s;
+      }
+    
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    }
+   }
+
+
+@media all and (min-width: 998px) {
+
+    .header__menu {
+       display: flex; 
+       justify-content: flex-start;
+       justify-content: center;
+    
+       i {
+        float: left;
+        margin-top: 13px;
+        
+       }
+    
+       &__arrow {
+        padding-right: 70px;
+
+       }
+    
+
+    }
+    
+    .img {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+
+    }
+    
+    .restaurant__img {
+        display: flex;
+        width: 1000px;
+        overflow: hidden;
+        height: 410px;
+    }
+
+    #enchant {
+      padding-right: 15px;
+    }
+    
+    .menu {
+
+        border: $color-grey 3px solid;
+        background-color: $color-grey;
+        border-top-left-radius:30px ;
+        border-top-right-radius: 30px;
+        padding: 30px 225px 0 0 ;
+        display: flex;
+        justify-content: center;
+
+        height: fit-content;
+        padding-bottom: 50px;
+    
+    
+        &__header {
+            display: flex;
+            align-items: center;
+            padding-right: 200px;
+            padding-left: 50px;
+            
+            
+        }
+    }
+
+    .dish-trans {
+      padding-left: 40px;
+    }
+
+    .section__title{
+      padding-bottom: 20px;
+    }
+
+
+    
+    .menu__dishes {
+    
+        width: 360px;
+        h5 {
+            font-size: 30px;
+            margin-left: 13px;
+            width: fit-content;
+            border-bottom: $color-3 2px solid;
+            margin-bottom: 20px;
+            
+        }
+    }
+    
+   
+
+    .footer {
+      padding-bottom: 100px;
+      width: 100%;
+  
+    }
+
+    .dish-trans {
+      .diss {
+        opacity: 0;
+        transform: translateY(10px);
+        animation: fadeIn 0.5s ease-in-out forwards;
+      }
+    
+      .diss--1 {
+        animation-delay: 0.2s;
+      }
+    
+      .diss--2 {
+        animation-delay: 0.5s;
+      }
+    
+      .diss--3 {
+        animation-delay: 1s;
+      }
+    
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    }
+
+
+    .dish-trans {
+
+    
+      .diss {
+        opacity: 0;
+        transform: translateY(10px);
+        animation: fadeIn 0.5s ease-in-out forwards;
+      }
+    
+      .diss--1 {
+        animation-delay: 0.2s;
+      }
+    
+      .diss--2 {
+        animation-delay: 0.5s;
+      }
+    
+      .diss--3 {
+        animation-delay: 1s;
+      }
+    
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    }
+
+
+    
+    }
