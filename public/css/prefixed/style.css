@@ -60,9 +60,9 @@ body {
     margin: 40px 0px 60px 100px;
     margin-left: -300px;
   }
-  .order :hover {
-    background: #fface8;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  .order:hover {
+    background: #9e67e0;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 15px 20px 0 rgba(0, 0, 0, 0.19);
   }
 }
 .ResHeartMove {
@@ -310,7 +310,7 @@ body {
     text-align: left;
   }
   .howitworks button:hover {
-    background-color: #e9ddf8;
+    background-color: #e4d5f6;
   }
   .howitworks__numb {
     display: inline-block;
@@ -425,6 +425,9 @@ body {
     justify-content: center;
     align-items: center;
   }
+  .howitworks button:hover {
+    background-color: #e4d5f6;
+  }
   .howitworks__numb {
     display: inline-block;
     text-align: center;
@@ -536,6 +539,9 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: left;
     display: inline;
+  }
+  .howitworks button:hover {
+    background-color: #e4d5f6;
   }
   .howitworks__numb {
     display: inline-block;

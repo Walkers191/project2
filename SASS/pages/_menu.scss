@@ -1,8 +1,5 @@
 @media all and (max-width: 480px) {
 
-
-
-
 .header__menu {
    display: flex; 
    justify-content: flex-start;
@@ -32,13 +29,9 @@
     display: flex;
     // overflow: hidden;
     height: 250px;
-    // display: block;
-//  i am here trying to fix overlap[ of img
 }
 
 .menu {
-    // top: 200px;  rememebr this 
-    // position: absolute;
     border: whitesmoke 3px solid;
     background-color: whitesmoke;
     border-top-left-radius:30px ;

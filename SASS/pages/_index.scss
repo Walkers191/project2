@@ -57,7 +57,7 @@
         text-align: left;
 
         &:hover {
-            background-color: lighten($color-1, 32%);
+            background-color: lighten($color-1, 30%);
         }
         
     }
@@ -208,6 +208,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
+
+            &:hover {
+                background-color: lighten($color-1, 30%);
+            }
             
         }
     
@@ -354,6 +358,10 @@
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         text-align: left;
         display: inline;
+
+        &:hover {
+            background-color: lighten($color-1, 30%);
+        }
         
     }
 
