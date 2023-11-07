@@ -749,6 +749,10 @@ body {
     overflow: hidden;
     height: 250px;
   }
+  .bottom--line {
+    border-bottom: #99E2D0 2px solid;
+    width: fit-content;
+  }
   .menu {
     border: #E8E8E8 3px solid;
     background-color: #E8E8E8;
@@ -780,9 +784,6 @@ body {
     top: 305px;
     padding-top: 20px;
     padding-bottom: 10px;
-  }
-  .full {
-    border: red 3px solid;
   }
   #footer__menu {
     position: relative;
@@ -918,6 +919,10 @@ body {
     text-align: center;
     font-size: 30px;
     font-weight: bolder;
+  }
+  .bottom--line {
+    border-bottom: #99E2D0 2px solid;
+    width: fit-content;
   }
   .menu {
     border: #E8E8E8 3px solid;

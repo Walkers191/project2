@@ -118,120 +118,6 @@
    
 }
 
-// #footer__menu {
-//     position: absolute;
-//     top: 200px;
-// }
-
-// #plate__footer {
-
-//   position: static;
-//   top: 300px;
-   
-// }
-
-// #plate__footer {
-//   top: 10px;
-//   position: absolute;
-//   border: 6px solid red;
-// }
-
-// ASDASDASDASDASDASDASDASDASDASDASD
-// .dish {
-//     background-color: $color-white;
-//     padding-left: 10px;
-//     border-radius: 15px;
-//     height: 90px;
-//     padding: 10px 0px;
-//     // height: 65px;
-//     padding-left: 20px;
-//     margin-left: 10px;
-//     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-//     margin-bottom: 10px;
-
-//     &__name {
-//         display: block;
-//     }
-
-//     &__price  {
-//         float: right;
-        
-        
-//     }
-
-//     &__tick {
-//         float: right;
-//         border: 10px $color-3 solid;
-//         background-color: $color-3;
-
-
-//     }
-// }
-
-// JUIST GOT RID OF THIS 
-
-
-// @keyframes moveAndSpin {
-//     0% {
-//       transform: translateX(0) rotate(0deg);
-//       opacity: 0;
-//     }
-//     50% {
-//       transform: translateX(-50px) rotate(360deg);
-//       opacity: 1;
-//     }
-//     100% {
-//       transform: translateX(-50px) rotate(360deg);
-//       opacity: 1;
-//     }
-  // }
-  
-  // @keyframes resetPosition {
-  //   0% {
-  //     transform: translateX(-50px) rotate(360deg);
-  //     opacity: 1;
-  //   }
-  //   100% {
-  //     transform: translateX(0) rotate(0deg);
-  //     opacity: 0;
-  //   }
-  // }
-  
-  // .dish {
-  //   background-color: $color-white;
-  //   padding-left: 10px;
-  //   border-radius: 15px;
-  //   height: 90px;
-  //   padding: 10px 0px;
-  //   padding-left: 20px;
-  //   margin-left: 10px;
-  //   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-  //   margin-bottom: 10px;
-  //   cursor: pointer;
-  
-  //   &__name {
-  //     display: block;
-  //   }
-  
-  //   &__price {
-  //     float: right;
-  //   }
-  
-  //   &__tick {
-  //     transform: translateX(-50px);
-  //     opacity: 0;
-  //   }
-  // }
-  
-  // .section {
-  //   &:hover .dish__tick {
-  //     animation: moveAndSpin 0.6s ease forwards;
-  //   }
-  
-  //   &.active .dish__tick {
-  //     animation: resetPosition 0.6s ease forwards;
-  //   }
-  // }
 
 
   .dish-trans {
@@ -308,6 +194,11 @@
         height: 250px;
         
     }
+
+    .bottom--line {
+      border-bottom: $color-3 2px solid;
+      width: fit-content;
+    }
     
     .menu {
         border: $color-grey 3px solid;
@@ -348,9 +239,6 @@
       padding-bottom: 10px;
     }
 
-    .full {
-      border: red 3px solid;
-    }
 
     #footer__menu {
       position: relative;
@@ -544,6 +432,11 @@
         font-size: 30px;
         font-weight: bolder;
       }
+    }
+    
+    .bottom--line {
+      border-bottom: $color-3 2px solid;
+      width: fit-content;
     }
     
     .menu {
