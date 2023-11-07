@@ -575,7 +575,7 @@ body {
   }
   .restaurants__card {
     display: inline-block;
-    margin-left: 100px;
+    margin-left: 10px;
     width: 300px;
   }
   .restaurants__card img {
