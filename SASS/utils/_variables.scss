@@ -10,12 +10,12 @@ $heading-font-family:'Shrikhand', "cursive";
 $text-font-family:'Roboto', sans-serif;
 
 
-h1 h2 h3 h4 h5 h6 {
+h1, h2, h4,  h6 {
     font-family: $heading-font-family;
 
 }
 
 
-p span {
+p, span, h3, h5 {
     font-family: $text-font-family;
 }

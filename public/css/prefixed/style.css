@@ -1,10 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap");
-h1 h2 h3 h4 h5 h6 {
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap");
+h1, h2, h4, h6 {
   font-family: "Shrikhand", "cursive";
 }
 
-p span {
+p, span, h3, h5 {
   font-family: "Roboto", sans-serif;
 }
 
@@ -37,6 +36,10 @@ body {
     height: 40px;
     margin: 40px 0px 60px 100px;
   }
+  .order:hover {
+    background: #9e67e0;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 15px 20px 0 rgba(0, 0, 0, 0.19);
+  }
 }
 @media all and (min-width: 641px) {
   .booking__button {
@@ -56,6 +59,10 @@ body {
     height: 40px;
     margin: 40px 0px 60px 100px;
     margin-left: -300px;
+  }
+  .order :hover {
+    background: #fface8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 }
 .ResHeartMove {
@@ -250,7 +257,6 @@ body {
   }
   .header__location {
     padding-left: 20px;
-    font-family: "Shrikhand", "cursive";
     font-size: 14px;
   }
   .header__icon {
@@ -268,7 +274,11 @@ body {
     padding: 17px;
   }
   .booking p {
-    padding: 12px;
+    padding-bottom: 20px;
+  }
+  .booking span {
+    display: inline-block;
+    padding: 14px;
   }
   .booking__title {
     font-weight: bold;
@@ -276,7 +286,6 @@ body {
   .howitworks {
     text-align: center;
     padding: 10px;
-    font-family: "Roboto", sans-serif;
   }
   .howitworks h3 {
     padding: 20px 0px;
@@ -300,6 +309,9 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: left;
   }
+  .howitworks button:hover {
+    background-color: #e9ddf8;
+  }
   .howitworks__numb {
     display: inline-block;
     text-align: center;
@@ -309,15 +321,18 @@ body {
     color: #fff;
     border: #9356dc 4px solid;
     border-radius: 50%;
+    margin-left: -10px;
   }
   .restaurants {
     text-align: center;
     background-color: whitesmoke;
     padding-bottom: 50px;
   }
-  .restaurants h2 {
+  .restaurants h3 {
     padding: 40px 0px 20px 40px;
     text-align: left;
+    font-size: 25px;
+    font-weight: bolder;
   }
   .restaurants__card {
     width: 300px;
@@ -348,6 +363,8 @@ body {
     top: 50px;
     left: 110px;
     padding: 4px 15px;
+    font-family: "Roboto", sans-serif;
+    color: #278870;
   }
 }
 @media all and (min-width: 768px) and (max-width: 990px) {
@@ -373,7 +390,11 @@ body {
     padding: 17px;
   }
   .booking p {
-    padding: 12px;
+    padding-bottom: 20px;
+  }
+  .booking span {
+    display: inline-block;
+    padding: 14px;
   }
   .howitworks {
     text-align: center;
@@ -483,7 +504,12 @@ body {
     padding: 17px;
   }
   .booking p {
-    padding: 12px;
+    padding-bottom: 20px;
+  }
+  .booking span {
+    display: inline-block;
+    padding: 19px;
+    font-size: 18px;
   }
   .howitworks {
     text-align: center;
@@ -607,8 +633,8 @@ body {
     height: 250px;
   }
   .menu {
-    border: #E8E8E8 3px solid;
-    background-color: #E8E8E8;
+    border: whitesmoke 3px solid;
+    background-color: whitesmoke;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     position: relative;
@@ -617,6 +643,7 @@ body {
   }
   .menu h2 {
     margin-left: 20px;
+    font-weight: bolder;
   }
   .menu__header {
     padding: 20px;
@@ -633,8 +660,10 @@ body {
   .dishs {
     margin-left: 13px;
     width: fit-content;
-    border-bottom: #99E2D0 2px solid;
     margin-bottom: 20px;
+  }
+  .bottom--line {
+    border-bottom: #99E2D0 2px solid;
   }
   #higher {
     height: fit-content;
@@ -660,6 +689,9 @@ body {
     float: right;
     margin-right: 10px;
     margin-bottom: 50px;
+  }
+  .dish__price {
+    font-weight: bold;
   }
   .footer__menu {
     position: relative;
@@ -729,9 +761,10 @@ body {
     justify-content: center;
     height: fit-content;
     position: absolute;
-    top: 230px;
+    top: 280px;
     z-index: 111;
     font-size: 18px;
+    height: 750px;
   }
   .menu__header {
     display: flex;
@@ -740,15 +773,37 @@ body {
     padding-right: 200px;
     padding-left: 50px;
   }
+  .restaurants h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .fullpalette__menu {
+    top: 305px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .full {
+    border: red 3px solid;
+  }
   #footer__menu {
     position: relative;
     top: 940px;
     padding-bottom: 80px;
   }
+  .size--small {
+    font-size: 26px;
+  }
+  .enchanted--size {
+    top: 305px;
+  }
   #plate__footer {
     position: relative;
-    top: 970px;
-    padding-bottom: 80px;
+    top: 990px;
+    padding-bottom: 40px;
+  }
+  .fullpalate {
+    top: 500px;
   }
   .menu__dishes {
     width: 360px;
@@ -760,8 +815,16 @@ body {
     border-bottom: #99E2D0 2px solid;
     margin-bottom: 20px;
   }
+  .footer_tablet {
+    border: red 3px solid;
+  }
   #enchant {
-    padding-right: 15px;
+    display: inline;
+    font-size: 20px;
+    padding-right: 13px;
+  }
+  #buttonfull {
+    margin-top: -10px;
   }
   .buttono {
     display: flex;
@@ -852,6 +915,11 @@ body {
   }
   #enchant {
     padding-right: 15px;
+  }
+  .restaurants h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
   }
   .menu {
     border: #E8E8E8 3px solid;

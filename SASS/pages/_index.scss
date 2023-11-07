@@ -9,10 +9,15 @@
     &__title {
         padding: 17px;
     }
+
     p {
-        padding: 12px; 
- 
- 
+        padding-bottom: 20px;
+    }
+    span {
+
+        display: inline-block;
+        padding: 14px;
+    
     }   
 }
 
@@ -23,7 +28,6 @@
 .howitworks {
     text-align: center;
     padding: 10px;
-    font-family: $text-font-family;
 
     h3 {
         padding: 20px 0px;
@@ -51,6 +55,10 @@
         border: none;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         text-align: left;
+
+        &:hover {
+            background-color: lighten($color-1, 32%);
+        }
         
     }
 
@@ -63,6 +71,7 @@
         color: $color-white;
         border: $color-1 4px solid;
         border-radius: 50%;
+        margin-left: -10px;
         
     }
 }
@@ -74,9 +83,11 @@
 
 
 
-    h2 {
+    h3 {
         padding: 40px 0px 20px 40px;
         text-align: left;
+        font-size: 25px;
+        font-weight: bolder;
     }
     &__card {
 
@@ -117,6 +128,8 @@
     top: 50px;
     left: 110px;
     padding: 4px 15px ;
+    font-family: $text-font-family;
+    color: darken($color-3, 40);
 }
 
 
@@ -150,9 +163,14 @@
             padding: 17px;
         }
         p {
-            padding: 12px; 
-        }   
+            padding-bottom: 20px;
+        }
+        span {
     
+            display: inline-block;
+            padding: 14px;
+        
+        }   
     
     }
     
@@ -291,7 +309,14 @@
         padding: 17px;
     }
     p {
-        padding: 12px; 
+        padding-bottom: 20px;
+    }
+    span {
+
+        display: inline-block;
+        padding: 19px;
+        font-size: 18px;
+    
     }   
 
 

@@ -3,3 +3,10 @@
         @content;
     }
 }
+
+
+@mixin lighten-on-hover($initial-color, $amount) {
+    &:hover {
+      background-color: lighten($initial-color, $amount);
+    }
+  }

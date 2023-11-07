@@ -16,6 +16,12 @@
     width: 175px;
     height: 40px;
     margin:40px 0px 60px 100px;
+
+     &:hover {
+        background: lighten($color-1, 4);
+        box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 15px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
 }
 }
 
@@ -27,6 +33,7 @@
         background: linear-gradient(to top, $color-1, $color-2);
         color: white;
         font-weight: bold;
+        
     }
     
     .order {
@@ -39,7 +46,12 @@
         height: 40px;
         margin:40px 0px 60px 100px;
         margin-left: -300px;
-    
+
+        :hover {
+        background: lighten($color-2, 10);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
     }
     
 
